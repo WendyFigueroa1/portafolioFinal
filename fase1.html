@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,24 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
+
   <header>
     <div class="container">
       <nav>
-        <div class="logo"><i class="fa-solid fa-layer-group"></i>Portafolio Digital</div>
-        <ul>
+        <div class="logo">
+          <i class="fa-solid fa-layer-group"></i>Portafolio Digital
+        </div>
+
+        <!-- Botón Hamburguesa -->
+        <button class="menu-toggle" aria-label="Menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links">
           <li><a href="index.html">Inicio</a></li>
           <li><a href="presentacion.html">Presentación</a></li>
           <li><a href="introduccion.html">Introducción</a></li>
@@ -32,26 +45,32 @@
 
   <main class="container">
     <h1>Fase 1: Fundamentos del Diseño Digital</h1>
-    
+
     <!-- Conceptos Clave -->
     <section class="card">
       <h2><i class="fa-solid fa-pen-nib"></i> Conceptos Clave</h2>
-      <p>El diseño de contenidos digitales va más allá de lo visual. Se trata de organizar la información de manera que sea accesible, comprensible y útil para el usuario final.</p>
-      
+      <p>El diseño de contenidos digitales va más allá de lo visual. Se trata de organizar la información de manera que
+        sea accesible, comprensible y útil para el usuario final.</p>
+
       <h3>Pilares del Diseño:</h3>
       <ul>
-        <li><strong>Usabilidad:</strong> Facilidad con la que los usuarios pueden emplear una herramienta para lograr un objetivo concreto.</li>
-        <li><strong>Accesibilidad:</strong> Asegurar que el contenido sea consumible por personas con diversas capacidades.</li>
-        <li><strong>Arquitectura de Información:</strong> Estructuración lógica de los datos para facilitar la navegación.</li>
+        <li><strong>Usabilidad:</strong> Facilidad con la que los usuarios pueden emplear una herramienta para lograr un
+          objetivo concreto.</li>
+        <li><strong>Accesibilidad:</strong> Asegurar que el contenido sea consumible por personas con diversas
+          capacidades.</li>
+        <li><strong>Arquitectura de Información:</strong> Estructuración lógica de los datos para facilitar la
+          navegación.</li>
       </ul>
-      <p class="quote">"Un buen diseño digital anticipa las necesidades del usuario antes de que este tenga que preguntar."</p>
+      <p class="quote">"Un buen diseño digital anticipa las necesidades del usuario antes de que este tenga que
+        preguntar."</p>
     </section>
 
     <!-- Teoría de Mayer -->
     <section class="card">
       <h2><i class="fa-solid fa-brain"></i> Principios de Mayer</h2>
-      <p>Richard Mayer propone que las personas aprenden mejor a partir de <strong>palabras e imágenes</strong> que de solo palabras. Sus principios ayudan a reducir la carga cognitiva.</p>
-      
+      <p>Richard Mayer propone que las personas aprenden mejor a partir de <strong>palabras e imágenes</strong> que de
+        solo palabras. Sus principios ayudan a reducir la carga cognitiva.</p>
+
       <h3>Principios Esenciales:</h3>
       <ul>
         <li><strong>Coherencia:</strong> Excluir material extraño que no sea relevante.</li>
@@ -65,8 +84,9 @@
     <!-- Tendencias -->
     <section class="card">
       <h2><i class="fa-solid fa-globe"></i> Tendencias Globales</h2>
-      <p>El diseño interactivo evoluciona constantemente. Las tendencias actuales se centran en la experiencia emocional y la inmersión.</p>
-      
+      <p>El diseño interactivo evoluciona constantemente. Las tendencias actuales se centran en la experiencia emocional
+        y la inmersión.</p>
+
       <div class="grid-2">
         <div>
           <h3><i class="fa-solid fa-arrow-trend-up"></i> Tendencias Actuales</h3>
@@ -90,15 +110,17 @@
     <!-- Roles -->
     <section class="card">
       <h2><i class="fa-solid fa-users-gear"></i> Rol del Programador y Usuario</h2>
-      
+
       <div class="grid-2">
         <div>
           <h3>👨‍💻 El Programador / Diseñador</h3>
-          <p>Su rol es técnico y creativo. Debe traducir necesidades en código funcional, asegurando que la interfaz sea intuitiva y el backend robusto. Es el arquitecto de la experiencia.</p>
+          <p>Su rol es técnico y creativo. Debe traducir necesidades en código funcional, asegurando que la interfaz sea
+            intuitiva y el backend robusto. Es el arquitecto de la experiencia.</p>
         </div>
         <div>
           <h3>👤 El Usuario</h3>
-          <p>No es un espectador pasivo. El usuario valida el diseño. Su comportamiento, clicks y tiempo de permanencia dictan si el diseño funciona. El enfoque UX pone al usuario en el centro.</p>
+          <p>No es un espectador pasivo. El usuario valida el diseño. Su comportamiento, clicks y tiempo de permanencia
+            dictan si el diseño funciona. El enfoque UX pone al usuario en el centro.</p>
         </div>
       </div>
     </section>
@@ -106,8 +128,9 @@
     <!-- Licencias -->
     <section class="card">
       <h2><i class="fa-solid fa-scale-balanced"></i> Licenciamiento de Contenidos</h2>
-      <p>Internet facilita compartir, pero es vital respetar la autoría. Conocer las licencias evita problemas legales y fomenta una comunidad digital sana.</p>
-      
+      <p>Internet facilita compartir, pero es vital respetar la autoría. Conocer las licencias evita problemas legales y
+        fomenta una comunidad digital sana.</p>
+
       <div class="grid-2">
         <div class="card" style="background:var(--secondary-color); border:none;">
           <h3>🔒 Copyright</h3>
@@ -131,12 +154,14 @@
     <!-- Educación -->
     <section class="card">
       <h2><i class="fa-solid fa-graduation-cap"></i> Importancia en la Educación</h2>
-      <p>El diseño de contenidos es el motor de la educación moderna. Permite romper las barreras del aula tradicional.</p>
-      
+      <p>El diseño de contenidos es el motor de la educación moderna. Permite romper las barreras del aula tradicional.
+      </p>
+
       <h3>Beneficios Clave:</h3>
       <ul>
         <li><strong>Retención:</strong> El cerebro procesa imágenes 60.000 veces más rápido que el texto.</li>
-        <li><strong>Accesibilidad Global:</strong> Cualquier persona con internet puede acceder a conocimiento de calidad.</li>
+        <li><strong>Accesibilidad Global:</strong> Cualquier persona con internet puede acceder a conocimiento de
+          calidad.</li>
         <li><strong>Interactividad:</strong> Gamificación y quizzes que hacen del aprendizaje un proceso activo.</li>
         <li><strong>Personalización:</strong> El contenido digital puede adaptarse al ritmo de cada estudiante.</li>
       </ul>
@@ -145,30 +170,31 @@
     <!-- Herramientas -->
     <section class="card">
       <h2><i class="fa-solid fa-toolbox"></i> Herramientas Tecnológicas</h2>
-      <p>Espacio práctico para la creación de contenido digital. Aquí se integran recursos multimedia para el aprendizaje.</p>
-      
+      <p>Espacio práctico para la creación de contenido digital. Aquí se integran recursos multimedia para el
+        aprendizaje.</p>
+
       <h3>📹 Vídeo Introductorio</h3>
       <div class="media-container">
         <i class="fa-solid fa-video" style="font-size:2rem;"></i>
         <p>video_intro.mp4 - Desarrollo de Contenidos Digitales: Conceptos básicos</p>
         <p class="caption"><small>Reemplaza este placeholder con tu archivo de video real</small></p>
       </div>
-      
+
       <h3>📋 Actividades Iniciales</h3>
       <ul>
         <li>Diseño de Matriz de Planeación</li>
         <li>Video Educativo Corto</li>
         <li>Infografía Interactiva sobre Sistemas</li>
       </ul>
-      
+
       <div class="media-container">
         <i class="fa-solid fa-image" style="font-size:2rem;"></i>
         <p>actividades.jpeg - Matriz de Planeación e Infografía</p>
       </div>
-      
+
       <h3>🤖 Inteligencia Artificial Generativa</h3>
       <p>Presentación visual sobre el impacto de la IA en la Sostenibilidad.</p>
-      
+
       <!-- Tu contenido extra aquí -->
       <div style="margin-top:1.5rem; padding-top:1rem; border-top:1px dashed var(--border-color);">
         <h3>✨ Contenido Adicional</h3>
@@ -180,5 +206,9 @@
   <footer>
     <p>© 2026 Wendy Guerrero - Portafolio Académico | UTS</p>
   </footer>
+
+  <script src="js/main.js"></script>
+
 </body>
+
 </html>

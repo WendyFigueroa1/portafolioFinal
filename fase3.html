@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,24 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
+
   <header>
     <div class="container">
       <nav>
-        <div class="logo"><i class="fa-solid fa-layer-group"></i>Portafolio Digital</div>
-        <ul>
+        <div class="logo">
+          <i class="fa-solid fa-layer-group"></i>Portafolio Digital
+        </div>
+
+        <!-- Botón Hamburguesa -->
+        <button class="menu-toggle" aria-label="Menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links">
           <li><a href="index.html">Inicio</a></li>
           <li><a href="presentacion.html">Presentación</a></li>
           <li><a href="introduccion.html">Introducción</a></li>
@@ -32,11 +45,12 @@
 
   <main class="container">
     <h1>Fase 3: Programación Educativa con Scratch</h1>
-    
+
     <div class="card">
       <h2><i class="fa-solid fa-cat"></i> ¿Qué es Scratch?</h2>
-      <p>Scratch es un lenguaje de programación visual desarrollado por el <strong>MIT Media Lab</strong>. Está diseñado principalmente para niños, jóvenes y personas que están iniciando en la programación.</p>
-      
+      <p>Scratch es un lenguaje de programación visual desarrollado por el <strong>MIT Media Lab</strong>. Está diseñado
+        principalmente para niños, jóvenes y personas que están iniciando en la programación.</p>
+
       <h3>Permite crear proyectos interactivos como:</h3>
       <ul>
         <li>🎮 Juegos</li>
@@ -45,8 +59,10 @@
         <li>🔬 Simulaciones</li>
         <li>📊 Presentaciones interactivas</li>
       </ul>
-      <p class="quote">Su característica principal es que utiliza bloques gráficos que se arrastran y encajan entre sí, evitando errores de sintaxis y facilitando el aprendizaje lógico y creativo.</p>
-      <p><a href="https://scratch.mit.edu" target="_blank" style="color:var(--primary-color);">🔗 Conoce más en scratch.mit.edu</a></p>
+      <p class="quote">Su característica principal es que utiliza bloques gráficos que se arrastran y encajan entre sí,
+        evitando errores de sintaxis y facilitando el aprendizaje lógico y creativo.</p>
+      <p><a href="https://scratch.mit.edu" target="_blank" style="color:var(--primary-color);">🔗 Conoce más en
+          scratch.mit.edu</a></p>
 
       <h2><i class="fa-solid fa-window-maximize"></i> Interfaz de Scratch</h2>
       <div class="grid-2">
@@ -94,15 +110,20 @@
 
       <h2><i class="fa-solid fa-graduation-cap"></i> Usos Educativos</h2>
       <ul>
-        <li><strong>Aprendizaje de Programación:</strong> Introduce conceptos como secuencias, condicionales, bucles y variables.</li>
-        <li><strong>Pensamiento Lógico:</strong> Ayuda a resolver problemas mediante pasos organizados y algoritmos.</li>
-        <li><strong>Creatividad:</strong> Los estudiantes pueden diseñar historias, videojuegos y proyectos multimedia.</li>
-        <li><strong>Trabajo Colaborativo:</strong> Permite compartir proyectos en línea y aprender de otros usuarios.</li>
-        <li><strong>Aprendizaje Interdisciplinario:</strong> Se puede utilizar en matemáticas, ciencias, arte, lenguaje y música.</li>
+        <li><strong>Aprendizaje de Programación:</strong> Introduce conceptos como secuencias, condicionales, bucles y
+          variables.</li>
+        <li><strong>Pensamiento Lógico:</strong> Ayuda a resolver problemas mediante pasos organizados y algoritmos.
+        </li>
+        <li><strong>Creatividad:</strong> Los estudiantes pueden diseñar historias, videojuegos y proyectos multimedia.
+        </li>
+        <li><strong>Trabajo Colaborativo:</strong> Permite compartir proyectos en línea y aprender de otros usuarios.
+        </li>
+        <li><strong>Aprendizaje Interdisciplinario:</strong> Se puede utilizar en matemáticas, ciencias, arte, lenguaje
+          y música.</li>
       </ul>
 
       <h2><i class="fa-solid fa-gamepad"></i> Proyectos Desarrollados</h2>
-      
+
       <h3>Ejercicios Básicos</h3>
       <div class="grid-3">
         <div class="card" style="background:var(--secondary-color); border:none;">
@@ -121,10 +142,14 @@
 
       <h3>🏆 Proyecto Final: Clasificación de Residuos</h3>
       <div class="card" style="background:var(--secondary-color);">
-        <p><strong>Descripción:</strong> Juego interactivo para enseñar a identificar residuos orgánicos e inorgánicos.</p>
-        <p><strong>Mecánica:</strong> El jugador mueve la caneca correcta hacia cada objeto. Si es correcto, el objeto desaparece, suma punto y suena un sonido. Si es incorrecto, permanece visible.</p>
-        <p><strong>Aprendizajes de programación:</strong> Eventos, condicionales, variables, bucles, clonación y detección de colisiones.</p>
-        <p><strong>Conciencia ambiental:</strong> Enseña separación correcta de residuos y la importancia del reciclaje.</p>
+        <p><strong>Descripción:</strong> Juego interactivo para enseñar a identificar residuos orgánicos e inorgánicos.
+        </p>
+        <p><strong>Mecánica:</strong> El jugador mueve la caneca correcta hacia cada objeto. Si es correcto, el objeto
+          desaparece, suma punto y suena un sonido. Si es incorrecto, permanece visible.</p>
+        <p><strong>Aprendizajes de programación:</strong> Eventos, condicionales, variables, bucles, clonación y
+          detección de colisiones.</p>
+        <p><strong>Conciencia ambiental:</strong> Enseña separación correcta de residuos y la importancia del reciclaje.
+        </p>
       </div>
 
       <!-- Tu contenido extra aquí -->
@@ -139,5 +164,7 @@
   <footer>
     <p>© 2026 Wendy Guerrero - Portafolio Académico | UTS</p>
   </footer>
+  <script src="js/main.js"></script>
 </body>
+
 </html>

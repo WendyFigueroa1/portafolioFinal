@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,24 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
+
   <header>
     <div class="container">
       <nav>
-        <div class="logo"><i class="fa-solid fa-layer-group"></i>Portafolio Digital</div>
-        <ul>
+        <div class="logo">
+          <i class="fa-solid fa-layer-group"></i>Portafolio Digital
+        </div>
+
+        <!-- Botón Hamburguesa -->
+        <button class="menu-toggle" aria-label="Menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links">
           <li><a href="index.html">Inicio</a></li>
           <li><a href="presentacion.html">Presentación</a></li>
           <li><a href="introduccion.html">Introducción</a></li>
@@ -32,49 +45,62 @@
 
   <main class="container">
     <h1>Autoevaluación</h1>
-    
+
     <div class="card">
       <h2><i class="fa-solid fa-circle-question"></i> ¿Qué aprendí?</h2>
-      <p>Este semestre aprendí que <strong>programar no es solo escribir código</strong>: es resolver problemas con la herramienta disponible, pensando siempre en quien va a usar lo que construyes.</p>
+      <p>Este semestre aprendí que <strong>programar no es solo escribir código</strong>: es resolver problemas con la
+        herramienta disponible, pensando siempre en quien va a usar lo que construyes.</p>
       <ul>
-        <li>Scratch y App Inventor me enseñaron a pensar en el usuario final de una forma que la programación tradicional no siempre obliga a hacer.</li>
+        <li>Scratch y App Inventor me enseñaron a pensar en el usuario final de una forma que la programación
+          tradicional no siempre obliga a hacer.</li>
         <li>Aprendí que documentar bien un proceso es tan importante como ejecutarlo.</li>
-        <li>Entendí que la inteligencia artificial es una herramienta poderosa siempre que quien la usa tenga criterio sobre lo que quiere lograr.</li>
-        <li><strong>Pero el aprendizaje más valioso:</strong> entender que puedo adaptarme a entornos desconocidos, incluso cuando al principio generan incomodidad, como ocurrió con App Inventor.</li>
+        <li>Entendí que la inteligencia artificial es una herramienta poderosa siempre que quien la usa tenga criterio
+          sobre lo que quiere lograr.</li>
+        <li><strong>Pero el aprendizaje más valioso:</strong> entender que puedo adaptarme a entornos desconocidos,
+          incluso cuando al principio generan incomodidad, como ocurrió con App Inventor.</li>
       </ul>
 
       <h2><i class="fa-solid fa-pen-to-square"></i> ¿Qué mejoraría?</h2>
       <p>Si pudiera repetir el semestre:</p>
       <ul>
-        <li>Le dedicaría más tiempo de exploración libre a App Inventor antes de enfrentarme a los proyectos formales, para llegar a ellos con mayor dominio de la herramienta.</li>
-        <li>Procuraría iterar más sobre los prompts educativos, probando los resultados que genera la IA con cada versión y ajustando con base en eso.</li>
-        <li>Mejoraría mi gestión del tiempo en las fases iniciales de cada proyecto, donde la curva de aprendizaje suele ser más pronunciada y requiere más horas de las que uno anticipa.</li>
+        <li>Le dedicaría más tiempo de exploración libre a App Inventor antes de enfrentarme a los proyectos formales,
+          para llegar a ellos con mayor dominio de la herramienta.</li>
+        <li>Procuraría iterar más sobre los prompts educativos, probando los resultados que genera la IA con cada
+          versión y ajustando con base en eso.</li>
+        <li>Mejoraría mi gestión del tiempo en las fases iniciales de cada proyecto, donde la curva de aprendizaje suele
+          ser más pronunciada y requiere más horas de las que uno anticipa.</li>
       </ul>
 
       <h2><i class="fa-solid fa-briefcase"></i> ¿Cómo aplico esto en mi vida profesional?</h2>
       <p>Como futuro desarrollador de software, este semestre me dejó tres cosas directamente aplicables:</p>
-      
+
       <div class="grid-3">
         <div class="card" style="background:var(--secondary-color); border:none;">
           <h3>🌐 Web Real</h3>
-          <p>Capacidad de publicar y desplegar productos web reales, habilidad base en cualquier perfil de desarrollo.</p>
+          <p>Capacidad de publicar y desplegar productos web reales, habilidad base en cualquier perfil de desarrollo.
+          </p>
         </div>
         <div class="card" style="background:var(--secondary-color); border:none;">
           <h3>👤 UX Centrado</h3>
-          <p>Comprensión profunda de cómo diseñar tecnología centrada en el usuario, pensando en que sea comprensible y útil.</p>
+          <p>Comprensión profunda de cómo diseñar tecnología centrada en el usuario, pensando en que sea comprensible y
+            útil.</p>
         </div>
         <div class="card" style="background:var(--secondary-color); border:none;">
           <h3>📝 Documentación</h3>
-          <p>Hábito de documentar procesos con rigor, algo que en equipos profesionales marca la diferencia entre un proyecto mantenible y uno que nadie más puede retomar.</p>
+          <p>Hábito de documentar procesos con rigor, algo que en equipos profesionales marca la diferencia entre un
+            proyecto mantenible y uno que nadie más puede retomar.</p>
         </div>
       </div>
-      
-      <p class="quote" style="margin-top:1.5rem;">Este semestre no fue solo una asignatura: fue un conjunto de competencias reales que ya forman parte de mi perfil.</p>
+
+      <p class="quote" style="margin-top:1.5rem;">Este semestre no fue solo una asignatura: fue un conjunto de
+        competencias reales que ya forman parte de mi perfil.</p>
     </div>
   </main>
 
   <footer>
     <p>© 2026 Wendy Guerrero - Portafolio Académico | UTS</p>
   </footer>
+  <script src="js/main.js"></script>
 </body>
+
 </html>

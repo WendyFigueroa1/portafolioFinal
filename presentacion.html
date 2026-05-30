@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,23 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
   <header>
     <div class="container">
       <nav>
-        <div class="logo"><i class="fa-solid fa-layer-group"></i>Portafolio Digital</div>
-        <ul>
+        <div class="logo">
+          <i class="fa-solid fa-layer-group"></i>Portafolio Digital
+        </div>
+
+        <!-- Botón Hamburguesa -->
+        <button class="menu-toggle" aria-label="Menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links">
           <li><a href="index.html">Inicio</a></li>
           <li><a href="presentacion.html" class="active">Presentación</a></li>
           <li><a href="introduccion.html">Introducción</a></li>
@@ -32,7 +44,7 @@
 
   <main class="container">
     <h1>Presentación Personal</h1>
-    
+
     <div class="card">
       <div style="text-align:center; margin-bottom:1.5rem;">
         <div class="img-placeholder" style="margin:0 auto; width:180px; height:180px; border-radius:50%;">
@@ -55,8 +67,11 @@
       </div>
 
       <h2><i class="fa-solid fa-award"></i> Competencias Adquiridas</h2>
-      <p>A lo largo de este semestre amplié significativamente mis habilidades en el campo del desarrollo de contenidos digitales. Si bien ya contaba con experiencia previa en programación, este espacio me permitió explorar herramientas que no había utilizado antes, como <strong>Scratch</strong> y <strong>App Inventor</strong>, con las que diseñé juegos educativos y aplicaciones móviles funcionales orientadas al aprendizaje.</p>
-      
+      <p>A lo largo de este semestre amplié significativamente mis habilidades en el campo del desarrollo de contenidos
+        digitales. Si bien ya contaba con experiencia previa en programación, este espacio me permitió explorar
+        herramientas que no había utilizado antes, como <strong>Scratch</strong> y <strong>App Inventor</strong>, con
+        las que diseñé juegos educativos y aplicaciones móviles funcionales orientadas al aprendizaje.</p>
+
       <div class="grid-2">
         <div class="card" style="background:var(--secondary-color); border:none;">
           <h3><i class="fa-solid fa-puzzle-piece"></i> Scratch</h3>
@@ -77,13 +92,20 @@
       </div>
 
       <h2><i class="fa-solid fa-eye"></i> Expectativas del Portafolio</h2>
-      <p>Este portafolio representa el resultado de un semestre de trabajo y aprendizaje constante. Su propósito principal es evidenciar, de manera organizada y accesible, cada uno de los productos desarrollados durante el curso, demostrando el proceso de formación recorrido y las competencias alcanzadas en el área de tecnología educativa y desarrollo digital.</p>
-      <p class="quote">Espero que este espacio refleje no solo los productos finales, sino también el esfuerzo, la dedicación y el crecimiento que hubo detrás de cada proyecto.</p>
+      <p>Este portafolio representa el resultado de un semestre de trabajo y aprendizaje constante. Su propósito
+        principal es evidenciar, de manera organizada y accesible, cada uno de los productos desarrollados durante el
+        curso, demostrando el proceso de formación recorrido y las competencias alcanzadas en el área de tecnología
+        educativa y desarrollo digital.</p>
+      <p class="quote">Espero que este espacio refleje no solo los productos finales, sino también el esfuerzo, la
+        dedicación y el crecimiento que hubo detrás de cada proyecto.</p>
     </div>
   </main>
 
   <footer>
     <p>© 2026 Wendy Guerrero - Portafolio Académico | UTS</p>
   </footer>
+  <script src="js/main.js"></script>
+
 </body>
+
 </html>

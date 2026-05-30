@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,24 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
+
   <header>
     <div class="container">
       <nav>
-        <div class="logo"><i class="fa-solid fa-layer-group"></i>Portafolio Digital</div>
-        <ul>
+        <div class="logo">
+          <i class="fa-solid fa-layer-group"></i>Portafolio Digital
+        </div>
+
+        <!-- Botón Hamburguesa -->
+        <button class="menu-toggle" aria-label="Menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links">
           <li><a href="index.html">Inicio</a></li>
           <li><a href="presentacion.html">Presentación</a></li>
           <li><a href="introduccion.html">Introducción</a></li>
@@ -32,26 +45,34 @@
 
   <main class="container">
     <h1>Referencias y Herramientas</h1>
-    
+
     <div class="card">
       <h2><i class="fa-solid fa-book"></i> Fuentes Consultadas</h2>
-      
+
       <h3>🤖 Inteligencia Artificial</h3>
       <ul>
-        <li>ChatGPT. (s.f.). Obtenido de <a href="https://chatgpt.com/" target="_blank" style="color:var(--primary-color);">https://chatgpt.com/</a></li>
-        <li>Claude. (s.f.). Obtenido de <a href="https://claude.ai/new" target="_blank" style="color:var(--primary-color);">https://claude.ai/new</a></li>
+        <li>ChatGPT. (s.f.). Obtenido de <a href="https://chatgpt.com/" target="_blank"
+            style="color:var(--primary-color);">https://chatgpt.com/</a></li>
+        <li>Claude. (s.f.). Obtenido de <a href="https://claude.ai/new" target="_blank"
+            style="color:var(--primary-color);">https://claude.ai/new</a></li>
       </ul>
 
       <h3>🎮 Plataformas Educativas</h3>
       <ul>
-        <li>Scratch. MIT Media Lab. Obtenido de <a href="https://scratch.mit.edu" target="_blank" style="color:var(--primary-color);">https://scratch.mit.edu</a></li>
-        <li>MIT App Inventor. Obtenido de <a href="https://appinventor.mit.edu" target="_blank" style="color:var(--primary-color);">https://appinventor.mit.edu</a></li>
+        <li>Scratch. MIT Media Lab. Obtenido de <a href="https://scratch.mit.edu" target="_blank"
+            style="color:var(--primary-color);">https://scratch.mit.edu</a></li>
+        <li>MIT App Inventor. Obtenido de <a href="https://appinventor.mit.edu" target="_blank"
+            style="color:var(--primary-color);">https://appinventor.mit.edu</a></li>
       </ul>
 
       <h3>📚 Recursos Multimedia</h3>
       <ul>
-        <li>Goboticos. (24 de enero de 2023). <em>Tutorial de Scratch</em>. YouTube. Obtenido de <a href="https://www.youtube.com/watch?v=eEg9dwNZDdc" target="_blank" style="color:var(--primary-color);">Ver video</a></li>
-        <li>VaidrollTeam. (16 de enero de 2024). <em>Recursos para desarrollo</em>. Blog. Obtenido de <a href="https://vaidrollteam.blogspot.com/" target="_blank" style="color:var(--primary-color);">Visitar blog</a></li>
+        <li>Goboticos. (24 de enero de 2023). <em>Tutorial de Scratch</em>. YouTube. Obtenido de <a
+            href="https://www.youtube.com/watch?v=eEg9dwNZDdc" target="_blank" style="color:var(--primary-color);">Ver
+            video</a></li>
+        <li>VaidrollTeam. (16 de enero de 2024). <em>Recursos para desarrollo</em>. Blog. Obtenido de <a
+            href="https://vaidrollteam.blogspot.com/" target="_blank" style="color:var(--primary-color);">Visitar
+            blog</a></li>
       </ul>
 
       <h2><i class="fa-solid fa-tools"></i> Herramientas Utilizadas</h2>
@@ -83,12 +104,14 @@
       </div>
 
       <h2><i class="fa-solid fa-file-lines"></i> Normas de Citación</h2>
-      <p>Todas las referencias están formatadas siguiendo las <strong>Normas APA 7.ª edición</strong>. Los enlaces externos se abren en una nueva pestaña para facilitar la navegación sin perder el contexto del portafolio.</p>
+      <p>Todas las referencias están formatadas siguiendo las <strong>Normas APA 7.ª edición</strong>. Los enlaces
+        externos se abren en una nueva pestaña para facilitar la navegación sin perder el contexto del portafolio.</p>
 
       <!-- Tu contenido extra aquí -->
       <div style="margin-top:1.5rem; padding-top:1rem; border-top:1px dashed var(--border-color);">
         <h3>✨ Recursos Adicionales</h3>
-        <p>Espacio para que agregues manuales, tutoriales o documentación extra que hayas utilizado durante el semestre.</p>
+        <p>Espacio para que agregues manuales, tutoriales o documentación extra que hayas utilizado durante el semestre.
+        </p>
         <!-- Tu contenido extra aquí -->
       </div>
     </div>
@@ -97,5 +120,7 @@
   <footer>
     <p>© 2026 Wendy Guerrero - Portafolio Académico | UTS</p>
   </footer>
+  <script src="js/main.js"></script>
 </body>
+
 </html>

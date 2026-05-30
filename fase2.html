@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,24 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
+
   <header>
     <div class="container">
       <nav>
-        <div class="logo"><i class="fa-solid fa-layer-group"></i>Portafolio Digital</div>
-        <ul>
+        <div class="logo">
+          <i class="fa-solid fa-layer-group"></i>Portafolio Digital
+        </div>
+
+        <!-- Botón Hamburguesa -->
+        <button class="menu-toggle" aria-label="Menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links">
           <li><a href="index.html">Inicio</a></li>
           <li><a href="presentacion.html">Presentación</a></li>
           <li><a href="introduccion.html">Introducción</a></li>
@@ -32,11 +45,13 @@
 
   <main class="container">
     <h1>Fase 2: Prompts con IA Generativa</h1>
-    
+
     <div class="card">
       <h2><i class="fa-solid fa-wand-magic-sparkles"></i> Introducción a la IA en Educación</h2>
-      <p>En esta fase se trabajó con herramientas de inteligencia artificial generativa para diseñar <strong>prompts con intención pedagógica clara</strong>. El objetivo fue aprender a estructurar instrucciones precisas que generen contenido educativo útil, contextualizado y alineado con objetivos de aprendizaje específicos.</p>
-      
+      <p>En esta fase se trabajó con herramientas de inteligencia artificial generativa para diseñar <strong>prompts con
+          intención pedagógica clara</strong>. El objetivo fue aprender a estructurar instrucciones precisas que generen
+        contenido educativo útil, contextualizado y alineado con objetivos de aprendizaje específicos.</p>
+
       <h3>🔑 Elementos de un Prompt Educativo Efectivo</h3>
       <ul>
         <li><strong>Role:</strong> Definir el rol que debe asumir la IA (docente, diseñador instruccional, etc.)</li>
@@ -62,7 +77,8 @@
       <h3>📝 Ejemplo de Prompt Pedagógico</h3>
       <div class="quote">
         <strong>Role:</strong> Eres un diseñador instruccional experto en educación primaria.<br>
-        <strong>Objetivo:</strong> Crear una actividad de 15 minutos para enseñar clasificación de residuos a niños de 8-10 años.<br>
+        <strong>Objetivo:</strong> Crear una actividad de 15 minutos para enseñar clasificación de residuos a niños de
+        8-10 años.<br>
         <strong>Formato:</strong> Lista de pasos con materiales necesarios y criterios de evaluación.<br>
         <strong>Tono:</strong> Lúdico, motivador y con lenguaje sencillo.
       </div>
@@ -79,5 +95,7 @@
   <footer>
     <p>© 2026 Wendy Guerrero - Portafolio Académico | UTS</p>
   </footer>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
