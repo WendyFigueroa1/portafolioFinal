@@ -286,7 +286,7 @@ footer {
   
   .nav-links a {
     display: block;
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 1.5rem;
     text-align: center;
     width: 100%;
   }
@@ -310,3 +310,152 @@ footer {
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
+/* Contenedor de ejercicios en columna */
+.exercises-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 1.5rem 0;
+}
+
+.exercise-card {
+  padding: 1.5rem !important;
+}
+
+/* Imagen de captura */
+.scratch-screenshot {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  max-height: 200px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin: 1rem auto;
+  display: block;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border: 2px solid var(--border-color);
+  background: var(--bg-white);
+}
+
+/* Contenedor del iframe de Scratch */
+.scratch-embed {
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background: var(--bg-white);
+  border: 3px solid var(--border-color);
+}
+
+.scratch-embed iframe {
+  display: block;
+  width: 100%;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .scratch-embed iframe {
+    height: 350px !important;
+  }
+  
+  .scratch-screenshot {
+    max-height: 180px;
+  }
+}
+
+/* En desktop podemos hacer el iframe más alto */
+@media (min-width: 769px) {
+  .scratch-embed iframe {
+    height: 420px !important;
+  }
+}
+
+/* Contenedor de apps en columna */
+.apps-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 1.5rem 0;
+}
+
+.app-card {
+  padding: 1.5rem !important;
+  text-align: center;
+}
+
+/* Capturas de aplicaciones */
+.app-screenshot {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 12px;
+  margin: 1.5rem auto;
+  display: block;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  border: 3px solid var(--border-color);
+  background: var(--bg-white);
+}
+
+/* Sección de descarga APK */
+.apk-download {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  background: var(--bg-white);
+  border-radius: var(--radius);
+  border: 2px dashed var(--primary-color);
+}
+
+/* Botón de descarga APK */
+.apk-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
+  color: rgb(7, 1, 1);
+  padding: 0.8rem 1.8rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 4px 12px rgba(217, 122, 90, 0.3);
+  transition: var(--transition);
+  border: none;
+  cursor: pointer;
+}
+
+.apk-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(217, 122, 90, 0.4);
+  color: white;
+}
+
+.apk-button i {
+  font-size: 1.1rem;
+}
+
+.apk-button-large {
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+}
+
+/* Información del APK */
+.apk-info {
+  margin-top: 0.8rem;
+  color: var(--text-light);
+  font-size: 0.85rem;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .app-screenshot {
+    max-height: 400px;
+  }
+  
+  .apk-button {
+    padding: 0.7rem 1.5rem;
+    font-size: 0.95rem;
+  }
+}
